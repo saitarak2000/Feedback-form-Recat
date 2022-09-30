@@ -1,0 +1,104 @@
+/* Write your CSS code here. */
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #ffebeb, #ffc0bb);
+  height: 100vh;
+  padding: 15px;
+}
+
+.inside-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  max-width: 250px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  h1 {
+    max-width: 500px;
+    font-size: 30px;
+  }
+}
+
+.emojies {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: -30px;
+  margin-bottom: 20px;
+}
+
+li {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 80px;
+  max-width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  li {
+    min-width: 150px;
+  }
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  img {
+    height: 60px;
+    width: 60px;
+  }
+}
+p {
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.feedback {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+.heading {
+  margin-bottom: -2px;
+}
+
+p {
+  text-align: center;
+  max-width: 300px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+@media screen and (min-width: 768px) {
+  p {
+    max-width: 500px;
+  }
+}
+.love {
+  height: 60px;
+  width: 60px;
+}
